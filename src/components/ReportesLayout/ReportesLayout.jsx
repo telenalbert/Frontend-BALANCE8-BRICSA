@@ -10,9 +10,10 @@ const ReportesLayout = () => {
     const [loading, setLoading] = useState(false);
 
   useEffect(() => {
+     const { empresa, libro, periodo } = filters;
      const fetchTodos = async () => {
       try {
-        const res = await fetch("http://localhost:8080/reportes");
+        const res = await fetch("https://balanceqa-talbert.bricsa.cl/api/GetBalance/" + empresa + "/" + libro + "/" + periodo.toString());
         const data = await res.json();
         setReportesTodos(data);
       } catch (err) {

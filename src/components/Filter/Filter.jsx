@@ -12,7 +12,7 @@ const Filter = ({ onFilterChange, onSearchChange, search }) => {
   const [empresas, setEmpresas] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8080/empresas")
+    fetch("https://balanceqa-talbert.bricsa.cl/api/GetCompanyList")
       .then((res) => res.json())
       .then((data) => setEmpresas(data))
       .catch((err) => console.error("Error cargando empresas:", err));
