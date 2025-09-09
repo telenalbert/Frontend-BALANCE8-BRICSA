@@ -1,0 +1,31 @@
+.PageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.LoginContainer{
+    background-color: #CB333B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.LoginInputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 250px;
+}
+
+.Input {
+    margin: 10px;
+}
+
+.Button {
+    margin: 10px;
+}

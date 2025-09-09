@@ -1,0 +1,18 @@
+.Filtros{
+    display: flex; 
+    gap: 1rem; 
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+.DropdownEmpresa {
+    width: 200;
+    color: #7BA4DB;
+}
+.Radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Periodo {
+    max-width: 120px;
+}

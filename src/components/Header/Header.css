@@ -1,0 +1,12 @@
+.LogoBricsa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.LogoBricsa img {
+    display: flex;
+    max-width: 50%;
+    align-items: center;
+}
